@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: rgb(0, 38, 88);
+    color: greenyellow;
+}
+
+#containerAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header1 {
+    font-size: 55px;
+}
+
+#p1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#inputField {
+    text-align: center;
+    width: 100px;
+    font-size: 50px;
+    color: greenyellow;
+    background-color: rgb(0, 38, 88);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid greenyellow;
+}
+
+#guessBtn {
+    margin: 15px;
+    font-size: 25px;
+    color: greenyellow;
+    background-color: rgb(0, 38, 88);
+    border: 2px solid greenyellow;
+}
+
+#guessBtn:hover {
+    color: rgb(0, 38, 88);
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 30px;
+}
